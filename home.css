@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100&display=swap');
+body{
+ margin: 0%;
+ padding: 0%;
+ background-color: #3B5998;
+}
+
+.head{
+  font-family: Arial, sans-serif;
+
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 70px;
+
+}
+
+nav{
+  background-color: navy;
+  display: flex;
+  
+justify-content: space-around;
+align-items: center;
+height: 40px;
+}
+
+
+.nv{
+    color: white;
+    font-family: 'REM', sans-serif;
+    text-decoration: none;
+}
+
+
+.nv::after {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 0%;
+    height: 1.5px;
+    background: #fff;
+    transition: width .4s ease-in;
+  }
+  
+.nv:hover::after {
+    width: 100%;
+   }
+
+  .first{
+
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .imag{
+  
+    margin-top: 2%;
+  }
+
+  .txt{
+    text-align: center;
+    margin-top: 5%;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+    .btn{
+      font-weight: 600;
+      font-size: small;
+     
+      text-decoration: none;
+      
+  border-radius: 10px;
+      padding: 5%;
+      background-color: rgb(22, 22, 60);
+      color: aqua;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+      .btn:hover{
+        background-color: #F6F4EB;
+      
+  
+        color: #4682A9;
+      
+  
+      }
+
+      footer{
+        font-family: 'REM', sans-serif;
+        border-radius: 5px ;
+        margin-top: -4px;
+        height: fit-content;
+        background-color: rgba(22, 22, 60,0.9);
+       }
+
+     
+         .bottom{
+         
+           display: flex;
+           justify-content: space-around;
+        
+     
+           
+        }
+
+
+   
+     
+     
+         .abc{
+           margin-top: 30%; 
+           height: 50px;
+           width:60px;
+         }
+     
+         a{
+          text-decoration: none;
+          color: white;
+         }
+         
+         #ft-btm{
+           padding-top: 10px;
+           display:flex;
+           text-decoration: none;
+           color: white;
+         }
+
+      
+
+
+         .lt{
+         
+          color:white;
+          }
+
+          .my-name{
+            text-decoration: none;
+            color: aqua;
+          }
+
+         .text{
+          margin-right: 10%;
+         }
+
+        .whole{
+          display: flex;
+          justify-content: space-around;
+        }
+
+        .fa {
+          border-radius: 50%;
+          padding: 10px;
+          font-size: 30px;
+          width: 15px;
+          height: 15px;
+          text-align: center;
+          text-decoration: none;
+        }
+
+        .fa:hover {
+          opacity: 0.7;
+        }
+
+        .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+        
+        .fa-twitter {
+          background: #55ACEE;
+         
+          color: white;
+        }
+
+        .fa-youtube {
+          background: #bb0000;
+          color: white;
+        }
+
+        .fa-instagram {
+          background: #125688;
+          color: white;
+        }
+
+        .fa-snapchat-ghost{
+         
+          background: #fffc00;
+          color: white;
+          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+
+
+        

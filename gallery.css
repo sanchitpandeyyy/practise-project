@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100&display=swap');
+body{
+ margin: 0%;
+ padding: 0%;
+}
+
+h1{
+  font-family: Arial, sans-serif;
+
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 70px;
+
+}
+
+nav{
+  background-color: navy;
+  display: flex;
+  font-family: 'REM', sans-serif;
+justify-content: space-around;
+align-items: center;
+height: 40px;
+}
+
+.nv{
+    color: white;
+  
+    text-decoration: none;
+}
+
+
+.nv::after {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 0%;
+    height: 1.5px;
+    background: #fff;
+    transition: width .4s ease-in;
+  }
+  
+  .nv:hover::after {
+    width: 100%;
+  }
+
+h2{
+    text-align: center;
+}
+
+picture{
+display: flex;
+justify-content: center;
+}
+ 
+img{
+    width: 500px;
+    height: 500px;
+    margin: 2%;
+}
+
+
+footer{
+    font-family: 'REM', sans-serif;
+    border-radius: 5px ;
+    margin-top: -4px;
+    height: fit-content;
+    background-color: rgba(22, 22, 60,0.9);
+   }
+
+ 
+     .bottom{
+     
+       display: flex;
+       justify-content: space-around;
+    
+ 
+       
+    }
+
+
+
+ 
+ 
+     .abc{
+       margin-top: 30%; 
+       height: 50px;
+       width:60px;
+     }
+ 
+     a{
+      text-decoration: none;
+      color: white;
+     }
+     
+     #ft-btm{
+       padding-top: 10px;
+       display:flex;
+       text-decoration: none;
+       color: white;
+     }
+
+  
+
+
+     .lt{
+     
+      color:white;
+      }
+
+      .my-name{
+        text-decoration: none;
+        color: aqua;
+      }
+
+     .text{
+      margin-right: 10%;
+     }
+
+    .whole{
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .fa {
+      border-radius: 50%;
+      padding: 10px;
+      font-size: 30px;
+      width: 15px;
+      height: 15px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .fa-twitter {
+      background: #55ACEE;
+     
+      color: white;
+    }
+
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    .fa-snapchat-ghost{
+     
+      background: #fffc00;
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+
+@media screen and (min-width: 374px) and (max-width:667px) {
+    
+    img{
+        width: 150px;
+        height: 150px;  
+    }
+}
+
+
